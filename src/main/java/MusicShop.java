@@ -1,7 +1,6 @@
 import behaviours.ISell;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class MusicShop implements ISell {
 
@@ -34,16 +33,16 @@ public class MusicShop implements ISell {
 
     @Override
     public Double calculateMarkUp(Double buyingPrice, Double sellingPrice) {
-        return null;
+        return sellingPrice - buyingPrice;
     }
 
     @Override
     public Double getBuyingPrice() {
-        return null;
+        return getBuyingPrice();
     }
 
     @Override
     public Double getSellingPrice() {
-        return null;
+        return getSellingPrice();
     }
 }

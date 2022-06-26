@@ -67,6 +67,6 @@ public class MusicShopTest {
 
     @Test
     public void canCalculateProfit(){
-        assertEquals(3820.00, musicShop.calculateTotalProfit(), 0.0);
+        assertEquals(915.00, musicShop.calculateTotalProfit(), 0.0);
     }
 }

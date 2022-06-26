@@ -20,6 +20,6 @@ public class Drums extends Instrument{
 
     @Override
     public Double calculateMarkUp(Double buyingPrice, Double sellingPrice) {
-        return null;
+        return sellingPrice - buyingPrice;
     }
 }
